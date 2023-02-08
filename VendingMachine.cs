@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SodaVendingMachine
 {
-    internal class VendingMachine
+    internal class VendingMachine  //could make a StockWithSoda() method
     {
         private int _balance;
         private Soda[] _stock;
